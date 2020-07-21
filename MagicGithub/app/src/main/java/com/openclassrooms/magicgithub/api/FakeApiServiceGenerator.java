@@ -11,7 +11,12 @@ public abstract class FakeApiServiceGenerator {
 
 
     static List<User> generateUsers() {
+
         return new ArrayList<>(FAKE_USERS);
+    }
+    static List<User> generateUsersRandom() {
+
+        return new ArrayList<>(FAKE_USERS_RANDOM);
     }
 
     public static List<User> FAKE_USERS = Arrays.asList(
