@@ -14,10 +14,7 @@ public abstract class FakeApiServiceGenerator {
 
         return new ArrayList<>(FAKE_USERS);
     }
-    static List<User> generateUsersRandom() {
 
-        return new ArrayList<>(FAKE_USERS_RANDOM);
-    }
 
     public static List<User> FAKE_USERS = Arrays.asList(
             new User("001", "Jake", "https://api.adorable.io/AVATARS/512/1.png"),

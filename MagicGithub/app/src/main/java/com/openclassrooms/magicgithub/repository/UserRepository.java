@@ -8,7 +8,7 @@ import java.util.List;
 
 public class UserRepository {
 
-    private final ApiService apiService; // TODO: A utiliser
+    private final ApiService apiService; // TODO: Done
 
     public UserRepository(ApiService apiService) {
 
@@ -16,18 +16,18 @@ public class UserRepository {
     }
 
     public List<User> getUsers() {
-        // TODO:  je comprend rien comment ca marche ses magique
+        // TODO: Done
 
         return apiService.getUsers();
     }
 
     public void generateRandomUser() {
-        // TODO: A modifier yolo je ne sais pas ou se trouve la seconde liste static
+        // TODO: Done
         apiService.generateRandomUser();
     }
 
     public void deleteUser(User username) {
-        // TODO: huston ?? comment je modif une fause liste static
+        // TODO: Done
         apiService.deleteUser(username);
     }
 }
